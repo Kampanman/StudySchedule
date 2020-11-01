@@ -27,7 +27,7 @@ CREATE TABLE `schedule` (
 ALTER TABLE `schedule`
   ADD PRIMARY KEY (`id`);
 
--- AUTO_INCREMENT for table `googles`
+-- AUTO_INCREMENT for table `schedule`
 ALTER TABLE `schedule`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
   

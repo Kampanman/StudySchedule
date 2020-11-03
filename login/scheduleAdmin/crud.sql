@@ -10,7 +10,7 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 -- Database: `crud`
--- Table structure for table `schedule`
+-- Table structure for table `googles`
 --
 
 CREATE TABLE `schedule` (
@@ -30,7 +30,4 @@ ALTER TABLE `schedule`
 -- AUTO_INCREMENT for table `schedule`
 ALTER TABLE `schedule`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
-
-SET @i := 0;
-UPDATE `schedule` SET `id` = (@i := @i +1);
   

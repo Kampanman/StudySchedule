@@ -138,11 +138,20 @@
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript">
 $('#example').DataTable({
-    "language" : {"url":"any.json"},
-    "initComplete" : function(settings, json) {
-        this.xxxApi().doAnythng();//ここで処理する
-    }
-});
+        responsive: true,
+        lengthChange: true,
+        info: false,
+        searching: true,
+        paging: true,
+        pagingType: "full_numbers",
+        lengthMenu: [ 10, 20, 50, 100 ],
+        columnDefs: [
+          { targets: 0, visible: false },
+        ],
+        language: {
+            url: "//cdn.datatables.net/plug-ins/1.10.20/i18n/Japanese.json"
+        }
+    });
 </script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </body>

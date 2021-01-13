@@ -90,11 +90,11 @@ while($row = mysqli_fetch_array($result))
                                 <b>【Type_1】</b><br>
                                 ・4th: 3rdの8日後（学習初日の13日後） 5th: 4thの15日後（学習初日の28日後）<br><br>
                                 <b>【Type_2】</b><br>
-                                ・4th: 3rdの8日後（学習初日の13日後） 5th: 4thの16日後（学習初日の29日後）<br><br>
+                                ・4th: 3rdの8日後（学習初日の13日後） 5th: 4thの17日後（学習初日の29日後）<br><br>
                                 <b>【Type_3】</b><br>
                                 ・4th: 3rdの9日後（学習初日の14日後） 5th: 4thの15日後（学習初日の30日後）<br><br>
                                 <b>【Type_4】</b><br>
-                                ・4th: 3rdの9日後（学習初日の14日後） 5th: 4thの16日後（学習初日の31日後）<br>
+                                ・4th: 3rdの9日後（学習初日の14日後） 5th: 4thの17日後（学習初日の31日後）<br>
                             </p>
                             <br>
                             <p><b>　Type_1・2のタスクの学習開始日と、Type_3・4のタスクの学習開始日は、それぞれ同日にするとよいでしょう。<br>
@@ -179,7 +179,7 @@ while($row = mysqli_fetch_array($result))
             var take_4 = new Date(take_4);
             var fm_take_4 = `${take_4.getFullYear()}/${take_4.getMonth()+1}/${take_4.getDate()}`.replace(/\n|\r/g, '');
 
-            var take_5 = dtDayInto.setDate(dtDayInto.getDate() + 16);
+            var take_5 = dtDayInto.setDate(dtDayInto.getDate() + 17);
             var take_5 = new Date(take_5);
             var fm_take_5 = `${take_5.getFullYear()}/${take_5.getMonth()+1}/${take_5.getDate()}`.replace(/\n|\r/g, '');
 
@@ -214,7 +214,7 @@ while($row = mysqli_fetch_array($result))
             var take_4 = new Date(take_4);
             var fm_take_4 = `${take_4.getFullYear()}/${take_4.getMonth()+1}/${take_4.getDate()}`.replace(/\n|\r/g, '');
 
-            var take_5 = dtDayInto.setDate(dtDayInto.getDate() + 16);
+            var take_5 = dtDayInto.setDate(dtDayInto.getDate() + 17);
             var take_5 = new Date(take_5);
             var fm_take_5 = `${take_5.getFullYear()}/${take_5.getMonth()+1}/${take_5.getDate()}`.replace(/\n|\r/g, '');
 

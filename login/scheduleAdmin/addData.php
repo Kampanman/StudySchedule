@@ -118,7 +118,7 @@ require_once("config.php");
             	    <!-- モーダルボタンとモーダルここまで -->
     	    
                   <br>
-                  <label>教材名（＆範囲） </label><input type="text" class="form-control" name="name" id="name" placeholder="教材名（＆範囲）を入力して下さい。" required>
+                  <label>教材名（＆範囲） </label><input type="text" class="form-control" name="name" id="name" autocomplete="off" placeholder="教材名（＆範囲）を入力して下さい。" required>
                   <br>
                   <p><label>隔日タイプ </label>　<input type="text" class="form-inline" name="type" id="type" value="type_1" readonly></p>
                   <p><label>1回目学習日</label>　<input type="text" class="form-inline" name="first" id="take_1" readonly></p>

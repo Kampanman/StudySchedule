@@ -95,7 +95,7 @@ while($row = mysqli_fetch_array($result))
         	    <!-- モーダルボタンとモーダルここまで -->
                 <br>
                     <input type="hidden" name="id" class="form-control" value="<?php echo $id;?>">
-                    <label>教材名（＆範囲） </label><input type="text" class="form-control" name="name" id="name" value="<?php echo $name;?>" required>
+                    <label>教材名（＆範囲） </label><input type="text" class="form-control" name="name" id="name" autocomplete="off" value="<?php echo $name;?>" required>
                 <br>
                     <p><label>隔日タイプ </label>　<input type="text" class="form-inline" name="type" id="type" value="<?php echo $type;?>" readonly></p>
                     <p><label>1回目学習日</label>　<input type="text" class="form-inline" name="first" id="take_1" value="<?php echo $first;?>" readonly></p>
